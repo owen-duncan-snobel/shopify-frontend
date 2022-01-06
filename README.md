@@ -9,6 +9,7 @@ Created using React, React-loading-skeleton and TailwindCSS
 
     Added React-loading-skeleton for the loading state while waiting for the API data.
     Added like button that is saved on refresh or when leaving and returning to site.
+    Mobile breakpoints / menu added
 
 
 ### Created using:
