@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <nav className="ml-2 mt-4">
             {/** Medium breakpoint and up Menu Bar */}
-            <div className="flex items-center justify-between md:justify-start no-underline">
-                <p className="hidden md:block text-2xl">Spacestagram</p>
-                <p className="md:hidden text-xl">Spacestagram</p>
+            <div className="md:fixed flex items-center justify-between md:justify-start no-underline">
+                <a href="#" className="hidden md:block text-2xl">Spacestagram</a>
+                <a href="#" className="md:hidden text-xl">Spacestagram</a>
                 <div className="md:hidden m-6">
                     <button onClick={() => setNavbarOpen(!navbarOpen)}>
                         <svg
